@@ -52,6 +52,18 @@ export function PromoSection() {
           </section>
         );
       })}
+
+      {/* Google Maps */}
+      <div className="w-full flex justify-center my-10">
+        <iframe
+          title="Google Maps"
+          className="w-[80vw] h-[50vh] max-sm:w-full"
+          src="https://www.google.com/maps/embed?pb=!4v1711567890123!6m8!1m7!1sD-qSXExKi5haEojk9Y2__A!2m2!1d4.7944166!2d-75.6920152!3f300.1!5f00!5f-50.7820865974627469"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 }
